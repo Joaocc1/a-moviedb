@@ -1,0 +1,36 @@
+const baseTheme = {
+    typography: {
+        fontFamily: 'JetBrains Mono, monospace',
+        fontSize: '1rem'
+    }
+};
+
+export const lightTheme = {
+    ...baseTheme,
+    palette: {
+        background: {
+            primary: "#ffffff",
+            secondary: "#d8d8d8",
+            terciary: "#aeaeae",
+        },
+        text: {
+            primary: "#ffffff",
+            secondary: "#2f2f2f",
+        }
+    }
+}
+
+export const darkTheme = {
+    ...baseTheme,
+    palette: {
+        background: {
+            primary: "#000000",
+            secondary: "#2f2f2f",
+            terciary: "#aeaeae",
+        },
+        text: {
+            primary: "#ffffff",
+            secondary: "#2f2f2f",
+        }
+    }
+}
