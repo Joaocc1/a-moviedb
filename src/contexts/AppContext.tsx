@@ -1,5 +1,5 @@
 import { createContext, ReactNode, useReducer, useEffect } from "react";
-import { AppContextModel, AppState } from "../models/context";
+import { AppContextModel } from "../models/context";
 import { reducer } from "../reducers/appReducer";
 
 export const AppContext = createContext({} as AppContextModel);
