@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import NavBar from "./components/NavBar";
 import { AppContext } from "./contexts/AppContext";
-import { darkTheme, lightTheme } from "./theme";
+import { darkTheme, lightTheme } from "./theme/index";
 import { Container } from "./styles";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
