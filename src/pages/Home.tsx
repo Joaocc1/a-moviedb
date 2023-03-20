@@ -43,7 +43,7 @@ const Home = () => {
         <FormGroup className="mb-3 search-form">
           <Form.Control
             type="search"
-            placeholder="Search here..."
+            placeholder="Start typing to search..."
             required
             name="query"
             value={query}

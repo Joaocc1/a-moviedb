@@ -3,11 +3,6 @@ body {
   padding: 0;
 }
 
-h1 {
-  border-radius: 5px;
-  padding: 1rem;
-}
-
 .search-form {
   margin: 0 auto;
   width: 40rem;

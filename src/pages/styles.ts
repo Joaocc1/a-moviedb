@@ -14,7 +14,7 @@ export const Header = styled.div`
 export const HeaderOne = styled.h1`
 margin: 0 auto;
 width: 40vw;
-padding: .2rem;
+padding: .5rem;
 background-color: ${(props) => props.theme.palette.background.terciary};
 `;
 
