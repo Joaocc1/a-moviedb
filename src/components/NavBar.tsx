@@ -1,12 +1,9 @@
-import { useLocation } from "react-router-dom";
-import { Nav, NavLink } from "./styles";
+import { Nav, NavLink, NavContainer } from "./styles";
 import "./styles";
 import ThemeButton from "./ThemeButton";
 
 
 const Navigation = () => {
-
-  const location = useLocation();
 
   const navList = [
     {
@@ -26,17 +23,18 @@ const Navigation = () => {
   return (
     
     <>
-    
-      <Nav>
-        {navList.map((item) => (
-          <NavLink key={item.name} to={item.path}>
-            <h4 /* active={location.pathname === item.path} */>
-              {item.name}
-            </h4>
-          </NavLink>
-        ))}
+      <NavContainer>
+        <Nav>
+          {navList.map((item) => (
+            <NavLink key={item.name} to={item.path}>
+              <h4>
+                {item.name}
+              </h4>
+            </NavLink>
+          ))}
+        </Nav>
         <ThemeButton />
-      </Nav>
+      </NavContainer>
     
     </>
   );

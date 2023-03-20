@@ -26,7 +26,7 @@ export const darkTheme = {
         background: {
             primary: "#000000",
             secondary: "#2f2f2f",
-            terciary: "#aeaeae",
+            terciary: "#3b3b44",
         },
         text: {
             primary: "#ffffff",

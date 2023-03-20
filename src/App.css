@@ -7,3 +7,11 @@ body {
   margin: 0 auto;
   width: 40rem;
 }
+
+h4:hover {
+  color: grey;
+}
+
+h4:active {
+  color: grey;
+}
