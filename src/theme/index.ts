@@ -1,7 +1,6 @@
 const baseTheme = {
     typography: {
-        fontFamily: 'JetBrains Mono, monospace',
-        fontSize: '1rem'
+        fontFamily: 'monospace',
     }
 };
 

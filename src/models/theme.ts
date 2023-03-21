@@ -4,7 +4,6 @@ declare module "styled-components" {
     export interface DefaultTheme {
         typography : {
             fontFamily: string;
-            fontSize: string;
         },
         palette: {
             background: {

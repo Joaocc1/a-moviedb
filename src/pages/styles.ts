@@ -16,6 +16,7 @@ margin: 0 auto;
 width: 40vw;
 padding: .5rem;
 background-color: ${(props) => props.theme.palette.background.terciary};
+font-family: ${(props => props.theme.typography.fontFamily)};
 `;
 
 export const Flex = styled.div`
