@@ -31,6 +31,6 @@ export const router = createBrowserRouter(
     },
   ],
   {
-    basename: "/",
+    basename: "/a-moviedb",
   }
 );
