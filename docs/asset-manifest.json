@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.40421acb.css",
-    "main.js": "/static/js/main.7e6a823f.js",
-    "static/media/noom-peerapong-2uwFEAGUm6E-unsplash.jpg": "/static/media/noom-peerapong-2uwFEAGUm6E-unsplash.26fc9fdeb43b85607a9d.jpg",
-    "index.html": "/index.html",
-    "main.40421acb.css.map": "/static/css/main.40421acb.css.map",
-    "main.7e6a823f.js.map": "/static/js/main.7e6a823f.js.map"
+    "main.css": "/a-moviedb/static/css/main.40421acb.css",
+    "main.js": "/a-moviedb/static/js/main.50465189.js",
+    "static/media/noom-peerapong-2uwFEAGUm6E-unsplash.jpg": "/a-moviedb/static/media/noom-peerapong-2uwFEAGUm6E-unsplash.26fc9fdeb43b85607a9d.jpg",
+    "index.html": "/a-moviedb/index.html",
+    "main.40421acb.css.map": "/a-moviedb/static/css/main.40421acb.css.map",
+    "main.50465189.js.map": "/a-moviedb/static/js/main.50465189.js.map"
   },
   "entrypoints": [
     "static/css/main.40421acb.css",
-    "static/js/main.7e6a823f.js"
+    "static/js/main.50465189.js"
   ]
 }
